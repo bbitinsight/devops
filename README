@@ -29,3 +29,12 @@ ex:
   522  git pull
   523  git pull origin main
   524  git log 
+lab2:
+  1. create branches from local repo and push into remote:
+      rel1.0.0
+      develop
+      bb-1010
+      bb-1011
+  2. switch to bb-1010 branch and add few new commits
+  3. push changes to bb-1010 remote branch
+  4. raise PR from bb-1010 to develop and merge.
