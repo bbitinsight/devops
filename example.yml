@@ -1,0 +1,9 @@
+---
+- hosts: all
+  vars:
+    packagename: tree
+  tasks:
+  - name: install tree package
+    apt:
+      name: "{{ packagename }}"
+      state: latest

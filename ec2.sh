@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-097a2df4ac947655f  --count 1 --instance-type t2.micro --key-name ohio --security-group-ids sg-0c47463cbede1c0e2 --subnet-id subnet-82260cce

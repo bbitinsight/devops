@@ -1,0 +1,1 @@
+aws ec2 terminate-instances --instance-ids i-0f15bd5a6a0c856ef
