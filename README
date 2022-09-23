@@ -58,3 +58,7 @@ solution:
   593  git add .
   594  git commit -m "updated"
   595  git push origin bb-1010
+lab3:
+   explore git revert and fork option in github
+   explore on branch protection rules
+ 
