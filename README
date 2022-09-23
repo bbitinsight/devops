@@ -62,3 +62,11 @@ lab3:
    explore git revert and fork option in github
    explore on branch protection rules
  
+lab4:
+   enable webhook in github repo
+   create httpsserver for github webhook in ec2:
+    ref: https://github.com/qf-devops/git-server/blob/master/webhook.rb
+   prepare endpoint url and updated in webhook 
+      #ruby webhook.rb 8000
+      #http://my.host:8000/
+   
