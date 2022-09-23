@@ -5,3 +5,27 @@ Lab1:
 2. create local repo using git init
 
 3. push changes to remote repo
+
+ex:
+  503  mkdir bbitapp
+  504  cd b
+  505  cd bbit
+  506  ls -lrt
+  507  pwd
+  508  git status
+  509  git init
+  510  git status
+  511  git add .
+  512  git status
+  513  git commit -m "BB-1010: added new file for app"
+  514  git status
+  515  git log 
+  516  git push
+  517  git remote -v
+  518  git remote add origin https://github.com/bbitinsight/devops.git
+  519  git remote -v
+  520  git branch
+  521  git push origin main
+  522  git pull
+  523  git pull origin main
+  524  git log 
