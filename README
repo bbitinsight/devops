@@ -81,4 +81,10 @@ lab4:
      3. run maven command to build an appln
          > cd sync
          > mvn -f pom.xml clean install
+     4. clone below multi module project repo:
+         git clone https://github.com/qf-devops/maven-multimodule.git
+     5. run maven  command
+         > cd maven-multimodule
+         > mvn -f pom.xml clean install
+         
    
