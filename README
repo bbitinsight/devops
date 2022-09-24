@@ -118,3 +118,9 @@ docker exec -it jen cat /var/jenkins_home/secrets/initialAdminPassword
 lab9: cfreate jenkins pipeline job
   https://github.com/bbitinsight/sync
   run jenkins job and ensure build success.
+lab10:  add agent to jenkins master
+ 1. create new vm for agent
+ 2. genrate ssh-kyes in jenkins server
+ 3. use node add in jenkins manage section
+ 4. fill all the details
+ 
