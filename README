@@ -93,4 +93,7 @@ lab4:
       >apt  install docker.io
    2. run below command in vm to start nexu repo server
       >docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+   3. check logs and get the password:
+      >docker logs nexus
+      >docker exec -it nexus cat /nexus-data/admin.password
    
