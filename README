@@ -113,3 +113,4 @@ sudo apt-get update
 sudo apt-get install jenkins
 
 docker run -itd -p 8080:8080 --name=jen jenkins/jenkins:lts
+docker exec -it jen cat /var/jenkins_home/secrets/initialAdminPassword
