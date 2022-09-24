@@ -72,3 +72,13 @@ lab4:
    
    lab5:
      waht is the use of cherry-pick  in git
+     
+   lab6:  maven
+     1. install maven packge in ec2 instace
+        >apt install maven -y
+     2. clone sync source code into vm
+        git clone https://github.com/bbitinsight/sync.git
+     3. run maven command to build an appln
+         > cd sync
+         > mvn -f pom.xml clean install
+   
