@@ -96,4 +96,9 @@ lab4:
    3. check logs and get the password:
       >docker logs nexus
       >docker exec -it nexus cat /nexus-data/admin.password
+   4. create repos(snapshots, releases) in nexus
+   5.  create role with repo previleges 
+   6. create user with above role assignment.
+   7. runbelow mvn command:
+        mvn -s settings.xml clean deploy
    
