@@ -124,3 +124,12 @@ lab10:  add agent to jenkins master
  3. use node add in jenkins manage section
  4. fill all the details
  
+ lab11:  add webhook to trgiggert the jenkins job
+1. prepare the end point url:
+   JENKINS_URL/job/sync-build/build?token=TOKEN_NAME 
+   webhook url:  http://devops:110f3d5810639bd3dd1db7230112a592f5@13.59.226.252:8080/job/sync-build/build?token=bvcjhschjvshj
+   url
+   token
+   user
+   genrate user token from user configuration
+ 2. add url in github webhook section 
