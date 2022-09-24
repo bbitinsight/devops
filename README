@@ -89,6 +89,7 @@ lab4:
          
    lab7: nexus repo
    1. install docker package:
+      > apt update
       >apt  install docker.io
    2. run below command in vm to start nexu repo server
       >docker run -d -p 8081:8081 --name nexus sonatype/nexus3
