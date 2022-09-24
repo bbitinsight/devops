@@ -87,4 +87,7 @@ lab4:
          > cd maven-multimodule
          > mvn -f pom.xml clean install
          
+   lab7: nexus repo
+   run below command in vm to start nexu repo server
+   >docker run -d -p 8081:8081 --name nexus sonatype/nexus3
    
