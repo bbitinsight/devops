@@ -150,4 +150,6 @@ Lab12:
 
 lab13:
   cloud agent configuration for jenkins
+  init script:
+    sudo apt update && sudo apt install maven -y
   
