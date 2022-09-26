@@ -147,3 +147,7 @@ Lab12:
     ssh keys from jenkins srver
     copy private key at jenkis server side
     copy public key at vm side (.ssh/authorized_keys)
+
+lab13:
+  cloud agent configuration for jenkins
+  
