@@ -153,4 +153,9 @@ lab13:
   install cloud provider plugin: ec2
   init script:
     sudo apt update && sudo apt install maven -y
-  
+ lab14:
+   intgrate sonarqube with jenkins and maven:
+     run sonarqube using below command in vm:
+      docker run -itd -p 9000:9000 --name=sonar sonarqube
+     commnd in jenkinsfile:
+     sh "mvn clean verify sonar:sonar -Dsonar.projectKey=sync -Dsonar.host.url=http://18.222.169.237:9000 -Dsonar.login=sqp_4e103df3de1783de43368689d22a29df7aeeabe3"
