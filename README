@@ -169,6 +169,12 @@ lab16:
   https://chromedriver.storage.googleapis.com/index.html?path=104.0.5112.20/
    https://www.lambdatest.com/blog/selenium-java-tutorial-how-to-test-login-process/
 
-  
+ lab 17:
+   assignment:
+     read about testng framework
+     read about selenium grid
+     wlakthrough this code: https://github.com/qf-devops/selenium/blob/master/exgrid.java
+     write simple selenium testcase with Python
+     
   
   
