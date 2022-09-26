@@ -150,6 +150,7 @@ Lab12:
 
 lab13:
   cloud agent configuration for jenkins
+  install cloud provider plugin: ec2
   init script:
     sudo apt update && sudo apt install maven -y
   
