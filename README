@@ -138,3 +138,12 @@ Assignment:
 read about sonarqube/sonarcloud
 intgrate ldap with jenkins server to restrict the authentication.
 AWS:  IAM policy, IAM role, IAM user
+
+
+Lab12:
+  Add agent to jenkins master..
+  prereq:
+    vm, directory
+    ssh keys from jenkins srver
+    copy private key at jenkis server side
+    copy public key at vm side (.ssh/authorized_keys)
