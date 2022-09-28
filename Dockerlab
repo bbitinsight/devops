@@ -6,12 +6,11 @@ create hub account in below url:
        docker run -itd --name=a1 ubuntu
    docker ps
    docker exec -it a1 bash
-   docker ps
-   docker 
-   docker commit --help
+      apt update
+      apt install maven -y
+   exit
     docker commit a1 mavenv1:1.0.0
     docker images
-     docker
     docker tag mavenv1:1.0.0 devopsjuly22017/mavenv1:1.0.0
      docker images
     docker push devopsjuly22017/mavenv1:1.0.0
