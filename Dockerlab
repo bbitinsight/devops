@@ -1,4 +1,4 @@
-lab:
+lab1:
 
 creaet an image and push into docker registry:
 create hub account in below url:
@@ -16,3 +16,10 @@ create hub account in below url:
     docker push devopsjuly22017/mavenv1:1.0.0
      docker login
     docker push devopsjuly22017/mavenv1:1.0.0
+lab2:
+  create acr
+  install awscli
+  aws configure
+  docker login
+  docker tag
+  docker push
