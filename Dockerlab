@@ -1,0 +1,19 @@
+lab:
+
+creaet an image and push into docker registry:
+create hub account in below url:
+ https://hub.docker.com
+       docker run -itd --name=a1 ubuntu
+   docker ps
+   docker exec -it a1 bash
+   docker ps
+   docker 
+   docker commit --help
+    docker commit a1 mavenv1:1.0.0
+    docker images
+     docker
+    docker tag mavenv1:1.0.0 devopsjuly22017/mavenv1:1.0.0
+     docker images
+    docker push devopsjuly22017/mavenv1:1.0.0
+     docker login
+    docker push devopsjuly22017/mavenv1:1.0.0
