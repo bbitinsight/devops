@@ -23,3 +23,8 @@ lab2:
   docker login
   docker tag
   docker push
+lab3:
+  clone this repo:
+    git clone https://github.com/qfitsolutions/docker.git
+    cd docker
+    docker build -t web:latest .
