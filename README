@@ -175,6 +175,8 @@ lab16:
      read about selenium grid
      wlakthrough this code: https://github.com/qf-devops/selenium/blob/master/exgrid.java
      write simple selenium testcase with Python
-     
+ lab18:
+   run app.java program in youi eclips
+   geckodriver
   
   
