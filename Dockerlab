@@ -52,3 +52,13 @@ lab6:
  git clone https://github.com/qfitsolutions/docker.git
  docker stack deploy -c stack-dc.yml mystack
  docker stack services mystack
+lab7:
+  ecs deployment:
+  clone this repo:
+    https://github.com/qfitsolutions/ecs-cfn.git
+   use cfn from aws console
+   createa stack and ddeploy
+   ener stackmname: mydemo
+   subnetid: 
+    
+    
