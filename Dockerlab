@@ -61,4 +61,7 @@ lab7:
    ener stackmname: mydemo
    subnetid: 
     
-    
+ lab8:
+ read ecs deployment using jenkins : 
+  https://github.com/mhmoudgmal/jenkins-ecs-deployment/blob/master/Jenkinsfile
+  
