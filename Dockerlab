@@ -28,3 +28,20 @@ lab3:
     git clone https://github.com/qfitsolutions/docker.git
     cd docker
     docker build -t web:latest .
+
+lab4:
+   run multiple containers using docker-compose
+   apt install docker-compose
+   git clone https://github.com/qfitsolutions/docker.git
+   cd docker
+   docker-compose -f docker.compose.yml up -d
+   access url: http://ipaddress:5000/
+lab5:
+   create two vms
+   install docker
+  
+  docker swarm init
+  docker swarm join-token 
+  docker swarm join-token worker
+  docker swarm join-token manager
+  docker node ls
