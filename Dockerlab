@@ -65,3 +65,9 @@ lab7:
  read ecs deployment using jenkins : 
   https://github.com/mhmoudgmal/jenkins-ecs-deployment/blob/master/Jenkinsfile
   
+ lab9:
+  convert stack-dc.yml file into ecs service.
+  ref: 
+  https://github.com/qfitsolutions/docker.git
+  convert into task def
+  deploy asda service in ecs
