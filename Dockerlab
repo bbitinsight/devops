@@ -45,3 +45,10 @@ lab5:
   docker swarm join-token worker
   docker swarm join-token manager
   docker node ls
+lab6:
+ docker service create --name=n1 -p 80:80 nginx
+ docker service scale n1=3
+ docker service ps n1
+ git clone https://github.com/qfitsolutions/docker.git
+ docker stack deploy -c stack-dc.yml mystack
+ docker stack services mystack
