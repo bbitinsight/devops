@@ -1,0 +1,8 @@
+lab1:
+
+ setcluster with kubeadm using below instaructions:
+ 
+ create 2 ec2 instances with ubun tu20,t2.large
+ 
+ https://bikramat.medium.com/set-up-a-kubernetes-cluster-with-kubeadm-508db74028ce
+ 
