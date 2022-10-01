@@ -6,3 +6,12 @@ lab1:
  
  https://bikramat.medium.com/set-up-a-kubernetes-cluster-with-kubeadm-508db74028ce
  
+lab2:
+Deploy containers:
+>kubectl run n1 --image=nginx --port=80
+>kubectl expose pod n1 --port=80 --target-port=80 --name=n1s --type=NodePort
+
+
+lab3:
+Deploy yml file for nginx svc:
+   >kubectl apply -f nginx-pod.yml
