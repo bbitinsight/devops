@@ -15,3 +15,13 @@ Deploy containers:
 lab3:
 Deploy yml file for nginx svc:
    >kubectl apply -f nginx-pod.yml
+lab4:
+ deploy k8s dashboard:
+   https://github.com/kubernetes/dashboard
+   
+   kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+   kubectl edit svc kubernetes-dashboard -n kubernetes-dashboard
+   change type: NodePort
+   url:
+     https://nodeip:port
+     
