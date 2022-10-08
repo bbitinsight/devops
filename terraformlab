@@ -1,0 +1,6 @@
+lab1:
+Check it how to lock remote state in terraform using aws
+
+lab:
+execute terraform using below url:
+ https://github.com/bbitinsight/aws-terraform
